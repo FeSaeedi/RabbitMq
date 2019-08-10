@@ -1,0 +1,19 @@
+﻿@using BusManagment.Host.Models
+@model IndexModel
+@{
+    ViewBag.Title = "Home Page";
+}
+@using (Html.BeginForm("Index", "Home", FormMethod.Post))
+{
+    <br />
+<div class="form-group">
+
+    <label>Exchange:</label>  @Html.TextBoxFor(model => model.Exchange, new { @class = "form-control" })
+    <label>QueueName:</label>  @Html.TextBoxFor(model => model.QeueuName, new { @class = "form-control" })
+    <label>Address:</label>  @Html.TextBoxFor(model => model.Address, new { @class = "form-control" })
+    <label>Type:</label>  @Html.TextBoxFor(model => model.TypeId, new { @class = "form-control" })
+
+
+    <button type="submit" class="btn btn-primary"> Register</button>
+</div>
+}
