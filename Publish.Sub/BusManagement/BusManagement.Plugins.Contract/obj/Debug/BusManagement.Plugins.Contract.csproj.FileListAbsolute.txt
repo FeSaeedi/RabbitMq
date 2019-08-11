@@ -1,0 +1,5 @@
+G:\Git\Rabbitmq\RabbitMq\Publish.Sub\BusManagement\BusManagement.Plugins.Contract\bin\Debug\BusManagement.Plugins.Contract.dll
+G:\Git\Rabbitmq\RabbitMq\Publish.Sub\BusManagement\BusManagement.Plugins.Contract\bin\Debug\BusManagement.Plugins.Contract.pdb
+G:\Git\Rabbitmq\RabbitMq\Publish.Sub\BusManagement\BusManagement.Plugins.Contract\obj\Debug\BusManagement.Plugins.Contract.csproj.CoreCompileInputs.cache
+G:\Git\Rabbitmq\RabbitMq\Publish.Sub\BusManagement\BusManagement.Plugins.Contract\obj\Debug\BusManagement.Plugins.Contract.dll
+G:\Git\Rabbitmq\RabbitMq\Publish.Sub\BusManagement\BusManagement.Plugins.Contract\obj\Debug\BusManagement.Plugins.Contract.pdb

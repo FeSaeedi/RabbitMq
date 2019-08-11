@@ -1,0 +1,13 @@
+G:\Git\Rabbitmq\RabbitMq\Publish.Sub\BusManagement\ChannelManagment.Data\bin\Debug\ChannelManagment.Data.dll
+G:\Git\Rabbitmq\RabbitMq\Publish.Sub\BusManagement\ChannelManagment.Data\bin\Debug\ChannelManagment.Data.pdb
+G:\Git\Rabbitmq\RabbitMq\Publish.Sub\BusManagement\ChannelManagment.Data\bin\Debug\BusManagment.Core.dll
+G:\Git\Rabbitmq\RabbitMq\Publish.Sub\BusManagement\ChannelManagment.Data\bin\Debug\RabbitMQ.Client.dll
+G:\Git\Rabbitmq\RabbitMq\Publish.Sub\BusManagement\ChannelManagment.Data\bin\Debug\Microsoft.Diagnostics.Tracing.EventSource.dll
+G:\Git\Rabbitmq\RabbitMq\Publish.Sub\BusManagement\ChannelManagment.Data\bin\Debug\BusManagment.Core.pdb
+G:\Git\Rabbitmq\RabbitMq\Publish.Sub\BusManagement\ChannelManagment.Data\bin\Debug\RabbitMQ.Client.xml
+G:\Git\Rabbitmq\RabbitMq\Publish.Sub\BusManagement\ChannelManagment.Data\bin\Debug\Microsoft.Diagnostics.Tracing.EventSource.xml
+G:\Git\Rabbitmq\RabbitMq\Publish.Sub\BusManagement\ChannelManagment.Data\obj\Debug\ChannelManagment.Data.csprojAssemblyReference.cache
+G:\Git\Rabbitmq\RabbitMq\Publish.Sub\BusManagement\ChannelManagment.Data\obj\Debug\ChannelManagment.Data.csproj.CoreCompileInputs.cache
+G:\Git\Rabbitmq\RabbitMq\Publish.Sub\BusManagement\ChannelManagment.Data\obj\Debug\ChannelManagment.Data.csproj.CopyComplete
+G:\Git\Rabbitmq\RabbitMq\Publish.Sub\BusManagement\ChannelManagment.Data\obj\Debug\ChannelManagment.Data.dll
+G:\Git\Rabbitmq\RabbitMq\Publish.Sub\BusManagement\ChannelManagment.Data\obj\Debug\ChannelManagment.Data.pdb

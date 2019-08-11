@@ -20,3 +20,14 @@ G:\Git\Rabbitmq\Publish.Subc\BusManagement\BusManagment.Core\obj\Debug\ChannelMa
 G:\Git\Rabbitmq\Publish.Subc\BusManagement\BusManagment.Core\obj\Debug\ChannelManagment.Core.csproj.CopyComplete
 G:\Git\Rabbitmq\Publish.Subc\BusManagement\BusManagment.Core\obj\Debug\BusManagment.Core.dll
 G:\Git\Rabbitmq\Publish.Subc\BusManagement\BusManagment.Core\obj\Debug\BusManagment.Core.pdb
+G:\Git\Rabbitmq\RabbitMq\Publish.Sub\BusManagement\BusManagment.Core\bin\Debug\BusManagment.Core.dll
+G:\Git\Rabbitmq\RabbitMq\Publish.Sub\BusManagement\BusManagment.Core\bin\Debug\BusManagment.Core.pdb
+G:\Git\Rabbitmq\RabbitMq\Publish.Sub\BusManagement\BusManagment.Core\bin\Debug\Microsoft.Diagnostics.Tracing.EventSource.dll
+G:\Git\Rabbitmq\RabbitMq\Publish.Sub\BusManagement\BusManagment.Core\bin\Debug\RabbitMQ.Client.dll
+G:\Git\Rabbitmq\RabbitMq\Publish.Sub\BusManagement\BusManagment.Core\bin\Debug\Microsoft.Diagnostics.Tracing.EventSource.xml
+G:\Git\Rabbitmq\RabbitMq\Publish.Sub\BusManagement\BusManagment.Core\bin\Debug\RabbitMQ.Client.xml
+G:\Git\Rabbitmq\RabbitMq\Publish.Sub\BusManagement\BusManagment.Core\obj\Debug\ChannelManagment.Core.csprojAssemblyReference.cache
+G:\Git\Rabbitmq\RabbitMq\Publish.Sub\BusManagement\BusManagment.Core\obj\Debug\ChannelManagment.Core.csproj.CoreCompileInputs.cache
+G:\Git\Rabbitmq\RabbitMq\Publish.Sub\BusManagement\BusManagment.Core\obj\Debug\ChannelManagment.Core.csproj.CopyComplete
+G:\Git\Rabbitmq\RabbitMq\Publish.Sub\BusManagement\BusManagment.Core\obj\Debug\BusManagment.Core.dll
+G:\Git\Rabbitmq\RabbitMq\Publish.Sub\BusManagement\BusManagment.Core\obj\Debug\BusManagment.Core.pdb

@@ -1,0 +1,7 @@
+G:\Git\Rabbitmq\RabbitMq\Publish.Sub\BusManagement\BusManagment.Host\Plugins\Plugin1\Plugin1.dll
+G:\Git\Rabbitmq\RabbitMq\Publish.Sub\BusManagement\BusManagment.Host\Plugins\Plugin1\Plugin1.pdb
+G:\Git\Rabbitmq\RabbitMq\Publish.Sub\BusManagement\Plugin1\obj\Debug\Plugin1.csprojAssemblyReference.cache
+G:\Git\Rabbitmq\RabbitMq\Publish.Sub\BusManagement\Plugin1\obj\Debug\Plugin1.csproj.CoreCompileInputs.cache
+G:\Git\Rabbitmq\RabbitMq\Publish.Sub\BusManagement\Plugin1\obj\Debug\Plugin1.csproj.CopyComplete
+G:\Git\Rabbitmq\RabbitMq\Publish.Sub\BusManagement\Plugin1\obj\Debug\Plugin1.dll
+G:\Git\Rabbitmq\RabbitMq\Publish.Sub\BusManagement\Plugin1\obj\Debug\Plugin1.pdb

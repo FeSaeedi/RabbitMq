@@ -47,6 +47,7 @@
   <ItemGroup>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.Composition" />
     <Reference Include="System.Data" />
     <Reference Include="System.Drawing" />
     <Reference Include="System.Web.DynamicData" />
@@ -117,6 +118,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="App_Start\Bootstrapper.cs" />
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\ConsumerRegistration.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
@@ -126,6 +128,7 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\IndexModel.cs" />
+    <Compile Include="PreApplicationInit.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -167,6 +170,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Plugins\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
@@ -182,6 +186,10 @@
     <Content Include="Scripts\jquery-3.3.1.min.map" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\BusManagement.Plugins.Contract\BusManagement.Plugins.Contract.csproj">
+      <Project>{9e9d4ede-dce2-4bc1-82b5-9842ddc52bb4}</Project>
+      <Name>BusManagement.Plugins.Contract</Name>
+    </ProjectReference>
     <ProjectReference Include="..\BusManagment.Core\ChannelManagment.Core.csproj">
       <Project>{d4296902-073e-48ab-908f-fefd162e829a}</Project>
       <Name>ChannelManagment.Core</Name>
