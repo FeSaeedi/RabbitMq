@@ -1,10 +1,11 @@
-﻿using System;
+﻿using BusManagement.Plugins.Contract;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.Composition;
 using System.ComponentModel.Composition.Hosting;
 using System.IO;
 using System.Linq;
-using System.Web;
+using System.Reflection;
 
 namespace BusManagment.Host.App_Start
 {
@@ -15,9 +16,13 @@ namespace BusManagment.Host.App_Start
 
         public static void Compose(List<string> pluginfolders)
         {
-            if (isloaded) return;
+            if (isloaded)
+            {
+                return;
+            }
 
             var catalog = new AggregateCatalog();
+
 
             catalog.Catalogs.Add(new DirectoryCatalog(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "bin")));
 
@@ -27,21 +32,37 @@ namespace BusManagment.Host.App_Start
                 catalog.Catalogs.Add(directorycatalog);
 
             }
-            compositioncontainer = new CompositionContainer(catalog);
 
+
+
+
+            compositioncontainer = new CompositionContainer(catalog);
             compositioncontainer.ComposeParts();
+            //var plugins = GetInstance<IQueuePlugin>("Plugin1");
+            //foreach (var item in plugins)
+            //{
+            //    var index = item.test(40);
+            //}
+
             isloaded = true;
         }
 
-        public static t GetInstance<t>(string contractname = null)
+        public static List<t> GetInstance<t>(string contractname = null)
         {
-            var type = default(t);
-            if (compositioncontainer == null) return type;
+            var type = new List<t>();
+            if (compositioncontainer == null)
+            {
+                return type;
+            }
 
             if (!string.IsNullOrWhiteSpace(contractname))
-                type = compositioncontainer.GetExportedValue<t>(contractname);
+            {
+                type= compositioncontainer.GetExportedValues<t>(contractname).ToList<t>();
+            }
             else
-                type = compositioncontainer.GetExportedValue<t>();
+            {
+                type = compositioncontainer.GetExportedValues<t>().ToList<t>();
+            }
 
             return type;
         }

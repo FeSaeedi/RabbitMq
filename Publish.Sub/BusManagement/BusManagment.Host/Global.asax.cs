@@ -4,6 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Reflection;
 using System.Web;
 using System.Web.Mvc;
 using System.Web.Optimization;
@@ -35,6 +36,12 @@ namespace BusManagment.Host
            // ConsumerRegistration.Register();
 
             var controller = Bootstrapper.GetInstance<IQueuePlugin>();
+            Type type = typeof(IQueuePlugin);
+            var types = AppDomain.CurrentDomain.GetAssemblies()
+       .SelectMany(s => s.GetTypes())
+       .Where(p => type.IsAssignableFrom(p));
+
+
             int x = 10;
         }
     }
