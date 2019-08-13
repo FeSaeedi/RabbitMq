@@ -33,16 +33,8 @@ namespace BusManagment.Host
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
             Bootstrapper.Compose(pluginFolders);
-           // ConsumerRegistration.Register();
+            ConsumerRegistration.Register();
 
-            var controller = Bootstrapper.GetInstance<IQueuePlugin>();
-            Type type = typeof(IQueuePlugin);
-            var types = AppDomain.CurrentDomain.GetAssemblies()
-       .SelectMany(s => s.GetTypes())
-       .Where(p => type.IsAssignableFrom(p));
-
-
-            int x = 10;
         }
     }
 }

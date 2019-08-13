@@ -17,9 +17,6 @@ namespace ChannelManagment.Data
         public List<CounsumerModel> GetAll()
         {
             List<CounsumerModel> models = new List<CounsumerModel>();
-            models.Add(new CounsumerModel());
-            models.Add(new CounsumerModel());
-            models.Add(new CounsumerModel());
             return models;
         }
     }

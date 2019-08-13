@@ -54,12 +54,20 @@
     <Compile Include="Log\LogConsole.cs" />
     <Compile Include="Log\LogFactory.cs" />
     <Compile Include="Log\LogFile.cs" />
+    <Compile Include="Plugin\IPluginManeger.cs" />
+    <Compile Include="Plugin\PluginManeger.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Channel\RabbitqChannel.cs" />
     <Compile Include="Consumer\CounsumerModel.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BusManagement.Plugins.Contract\BusManagement.Plugins.Contract.csproj">
+      <Project>{9e9d4ede-dce2-4bc1-82b5-9842ddc52bb4}</Project>
+      <Name>BusManagement.Plugins.Contract</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

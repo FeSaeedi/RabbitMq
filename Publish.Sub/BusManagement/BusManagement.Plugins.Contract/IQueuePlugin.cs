@@ -6,8 +6,9 @@ using System.Threading.Tasks;
 
 namespace BusManagement.Plugins.Contract
 {
-    public interface IQueuePlugin
+    public interface IConsumerPlugin
     {
-        int test(int x);
+        string QueueName { get; }
+        Task<int> Notify(string x);
     }
 }

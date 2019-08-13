@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Plugin1", "Plugin1\Plugin1.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusManagement.Plugins.Contract", "BusManagement.Plugins.Contract\BusManagement.Plugins.Contract.csproj", "{9E9D4EDE-DCE2-4BC1-82B5-9842DDC52BB4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atabat.Visa.SmsPlugin", "Atabat.Visa.SmsPlugin\Atabat.Visa.SmsPlugin.csproj", "{870339E4-79D5-4994-BD95-44FF7D672162}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{9E9D4EDE-DCE2-4BC1-82B5-9842DDC52BB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9E9D4EDE-DCE2-4BC1-82B5-9842DDC52BB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9E9D4EDE-DCE2-4BC1-82B5-9842DDC52BB4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{870339E4-79D5-4994-BD95-44FF7D672162}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{870339E4-79D5-4994-BD95-44FF7D672162}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{870339E4-79D5-4994-BD95-44FF7D672162}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{870339E4-79D5-4994-BD95-44FF7D672162}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -62,6 +68,7 @@ Global
 		{CC9AB5C3-CCBB-4263-8443-593ECDF0A316} = {8595FEB6-C76C-4B56-A44D-7DBFBF724E35}
 		{6C9D05BC-9210-49C0-A18D-EF6C5CDE3D85} = {1CE84AE8-C894-4D54-AA87-B968E22D5082}
 		{9E9D4EDE-DCE2-4BC1-82B5-9842DDC52BB4} = {1CE84AE8-C894-4D54-AA87-B968E22D5082}
+		{870339E4-79D5-4994-BD95-44FF7D672162} = {1CE84AE8-C894-4D54-AA87-B968E22D5082}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {785E7098-DDCA-4B33-996C-CF5661C42820}

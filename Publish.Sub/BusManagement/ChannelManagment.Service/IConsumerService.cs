@@ -1,4 +1,5 @@
-﻿using BusManagment.Core.Consumer;
+﻿using BusManagement.Plugins.Contract;
+using BusManagment.Core.Consumer;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,5 +13,6 @@ namespace ChannelManagment.Service
         void Add(string exchange, string qeueuName, string address, int typeId);
         List<CounsumerModel> GetAllConsumerDB();
         void RegisterChannel(string exchange, string qeueuName, string address, int typeId);
+        void RegisterOnChannel(List<IConsumerPlugin> plugins);
     }
 }

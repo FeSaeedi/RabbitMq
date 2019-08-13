@@ -13,7 +13,7 @@ namespace BusManagment.Core
     public class RabbitmqChannel : IChannel
     {
         #region Fields
-       ILog log;
+        ILog log;
         private static RabbitmqChannel _instance;
         private IModel _channel;
         #endregion
@@ -42,19 +42,19 @@ namespace BusManagment.Core
             //  _subscribes.Add(queueName, new SubscribeDTO(address, protocolType));
 
             log = LogFactory.GetLog(protocolType);
-           
-           // _channel.ExchangeDeclare(exchange: exchange, type: "fanout");
-          //  var rabbitQueueName = _channel.QueueDeclare(queueName,true).QueueName;
-          //  _channel.QueueBind(queue: rabbitQueueName,exchange: exchange,routingKey: "");
+
+            // _channel.ExchangeDeclare(exchange: exchange, type: "fanout");
+            //  var rabbitQueueName = _channel.QueueDeclare(queueName,true).QueueName;
+            //  _channel.QueueBind(queue: rabbitQueueName,exchange: exchange,routingKey: "");
             var consumer = new EventingBasicConsumer(_channel);
-            consumer.Received += async(model, ea) =>
+            consumer.Received += async (model, ea) =>
             {
                 Debug.WriteLine("Recive Step1");
                 var body = ea.Body;
                 var message = Encoding.UTF8.GetString(body);
                 try
                 {
-                   bool result =  await log.Write(message);
+                    bool result = await log.Write(message);
                     if (result)
                     {
                         _channel.BasicAck(ea.DeliveryTag, false);
@@ -63,7 +63,7 @@ namespace BusManagment.Core
                     else
                     {
                         _channel.BasicNack(ea.DeliveryTag, true, true);
-                        Debug.WriteLine("Recive Step20" );
+                        Debug.WriteLine("Recive Step20");
                     }
                 }
                 catch (Exception exp)
@@ -73,13 +73,46 @@ namespace BusManagment.Core
                 }
                 Debug.WriteLine("Recive Step Final");
             };
-            _channel.BasicConsume(queue: queueName,autoAck: false,consumer: consumer);
+            _channel.BasicConsume(queue: queueName, autoAck: false, consumer: consumer);
 
         }
 
         public void RemoveSubscriber(string queueName, string address)
         {
-           // _subscribes.Remove(queueName);
+            // _subscribes.Remove(queueName);
+        }
+
+        public void RegisterConsumer( string queueName, Func<string, Task<int>> notifyFunc)
+        {
+            var rabbitQueueName = _channel.QueueDeclare(queueName, true).QueueName;
+            //if (string.IsNullOrEmpty(exchangeName))
+            //{
+            //    _channel.ExchangeDeclare(exchange: exchangeName, type: "fanout");
+            //    _channel.QueueBind(queue: rabbitQueueName,exchange: exchangeName, routingKey: "");
+            //}
+
+            ////  
+            var consumer = new EventingBasicConsumer(_channel);
+            consumer.Received += async (model, ea) =>
+            {
+                Debug.WriteLine("Recive Step1");
+                var body = ea.Body;
+                var message = Encoding.UTF8.GetString(body);
+                try
+                {
+                    int result = await notifyFunc(message);
+                    _channel.BasicAck(ea.DeliveryTag, false);
+                    Debug.WriteLine("Recive Step2");
+                }
+                catch (Exception exp)
+                {
+                    _channel.BasicNack(ea.DeliveryTag, true, true);
+                    Debug.WriteLine("Recive Step3" + exp.Message);
+                }
+                Debug.WriteLine("Recive Step Final");
+            };
+            _channel.BasicConsume(queue: queueName, autoAck: false, consumer: consumer);
+
         }
     }
 }

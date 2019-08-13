@@ -10,5 +10,6 @@ namespace ChannelManagment.Core
     {
         void RegisterConsumer(string exchange, string queueName, string address, int protocolType);
         void RemoveSubscriber(string queueName, string address);
+        void RegisterConsumer( string queueName, Func<string, Task<int>> notifyFunc);
     }
 }
