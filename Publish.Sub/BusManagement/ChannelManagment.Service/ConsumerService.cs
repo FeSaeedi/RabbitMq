@@ -18,6 +18,7 @@ namespace ChannelManagment.Service
         {
             channel = RabbitmqChannel.GetRabbitmq();
             consumerRepository = new ConsumerRepository();
+            pluginManeger = new PluginManeger();
 
         }
         public void Add(string exchange, string qeueuName, string address, int typeId)

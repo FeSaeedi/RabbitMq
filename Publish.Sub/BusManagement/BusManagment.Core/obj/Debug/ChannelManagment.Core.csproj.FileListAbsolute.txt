@@ -42,3 +42,16 @@ D:\SampleProject\RabbitMq\Publish.Sub\BusManagement\BusManagment.Core\obj\Debug\
 D:\SampleProject\RabbitMq\Publish.Sub\BusManagement\BusManagment.Core\obj\Debug\ChannelManagment.Core.csproj.CopyComplete
 D:\SampleProject\RabbitMq\Publish.Sub\BusManagement\BusManagment.Core\obj\Debug\BusManagment.Core.dll
 D:\SampleProject\RabbitMq\Publish.Sub\BusManagement\BusManagment.Core\obj\Debug\BusManagment.Core.pdb
+E:\aseedi\SampleProject\RabbitMq\Publish.Sub\BusManagement\BusManagment.Core\bin\Debug\BusManagment.Core.dll
+E:\aseedi\SampleProject\RabbitMq\Publish.Sub\BusManagement\BusManagment.Core\bin\Debug\BusManagment.Core.pdb
+E:\aseedi\SampleProject\RabbitMq\Publish.Sub\BusManagement\BusManagment.Core\bin\Debug\BusManagement.Plugins.Contract.dll
+E:\aseedi\SampleProject\RabbitMq\Publish.Sub\BusManagement\BusManagment.Core\bin\Debug\Microsoft.Diagnostics.Tracing.EventSource.dll
+E:\aseedi\SampleProject\RabbitMq\Publish.Sub\BusManagement\BusManagment.Core\bin\Debug\RabbitMQ.Client.dll
+E:\aseedi\SampleProject\RabbitMq\Publish.Sub\BusManagement\BusManagment.Core\bin\Debug\BusManagement.Plugins.Contract.pdb
+E:\aseedi\SampleProject\RabbitMq\Publish.Sub\BusManagement\BusManagment.Core\bin\Debug\Microsoft.Diagnostics.Tracing.EventSource.xml
+E:\aseedi\SampleProject\RabbitMq\Publish.Sub\BusManagement\BusManagment.Core\bin\Debug\RabbitMQ.Client.xml
+E:\aseedi\SampleProject\RabbitMq\Publish.Sub\BusManagement\BusManagment.Core\obj\Debug\ChannelManagment.Core.csprojAssemblyReference.cache
+E:\aseedi\SampleProject\RabbitMq\Publish.Sub\BusManagement\BusManagment.Core\obj\Debug\ChannelManagment.Core.csproj.CoreCompileInputs.cache
+E:\aseedi\SampleProject\RabbitMq\Publish.Sub\BusManagement\BusManagment.Core\obj\Debug\ChannelManagment.Core.csproj.CopyComplete
+E:\aseedi\SampleProject\RabbitMq\Publish.Sub\BusManagement\BusManagment.Core\obj\Debug\BusManagment.Core.dll
+E:\aseedi\SampleProject\RabbitMq\Publish.Sub\BusManagement\BusManagment.Core\obj\Debug\BusManagment.Core.pdb

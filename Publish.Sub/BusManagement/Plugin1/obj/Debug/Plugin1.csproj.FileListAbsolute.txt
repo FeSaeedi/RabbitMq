@@ -12,3 +12,10 @@ D:\SampleProject\RabbitMq\Publish.Sub\BusManagement\Plugin1\obj\Debug\Plugin1.cs
 D:\SampleProject\RabbitMq\Publish.Sub\BusManagement\Plugin1\obj\Debug\Plugin1.csproj.CopyComplete
 D:\SampleProject\RabbitMq\Publish.Sub\BusManagement\Plugin1\obj\Debug\Plugin1.dll
 D:\SampleProject\RabbitMq\Publish.Sub\BusManagement\Plugin1\obj\Debug\Plugin1.pdb
+E:\aseedi\SampleProject\RabbitMq\Publish.Sub\BusManagement\BusManagment.Host\Plugins\Plugin1\Plugin1.dll
+E:\aseedi\SampleProject\RabbitMq\Publish.Sub\BusManagement\BusManagment.Host\Plugins\Plugin1\Plugin1.pdb
+E:\aseedi\SampleProject\RabbitMq\Publish.Sub\BusManagement\Plugin1\obj\Debug\Plugin1.csprojAssemblyReference.cache
+E:\aseedi\SampleProject\RabbitMq\Publish.Sub\BusManagement\Plugin1\obj\Debug\Plugin1.csproj.CoreCompileInputs.cache
+E:\aseedi\SampleProject\RabbitMq\Publish.Sub\BusManagement\Plugin1\obj\Debug\Plugin1.csproj.CopyComplete
+E:\aseedi\SampleProject\RabbitMq\Publish.Sub\BusManagement\Plugin1\obj\Debug\Plugin1.dll
+E:\aseedi\SampleProject\RabbitMq\Publish.Sub\BusManagement\Plugin1\obj\Debug\Plugin1.pdb

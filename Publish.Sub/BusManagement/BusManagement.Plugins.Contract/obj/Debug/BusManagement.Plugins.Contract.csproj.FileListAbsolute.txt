@@ -9,3 +9,8 @@ D:\SampleProject\RabbitMq\Publish.Sub\BusManagement\BusManagement.Plugins.Contra
 D:\SampleProject\RabbitMq\Publish.Sub\BusManagement\BusManagement.Plugins.Contract\obj\Debug\BusManagement.Plugins.Contract.dll
 D:\SampleProject\RabbitMq\Publish.Sub\BusManagement\BusManagement.Plugins.Contract\obj\Debug\BusManagement.Plugins.Contract.pdb
 G:\Git\Rabbitmq\RabbitMq\Publish.Sub\BusManagement\BusManagement.Plugins.Contract\obj\Debug\BusManagement.Plugins.Contract.csprojAssemblyReference.cache
+E:\aseedi\SampleProject\RabbitMq\Publish.Sub\BusManagement\BusManagement.Plugins.Contract\bin\Debug\BusManagement.Plugins.Contract.dll
+E:\aseedi\SampleProject\RabbitMq\Publish.Sub\BusManagement\BusManagement.Plugins.Contract\bin\Debug\BusManagement.Plugins.Contract.pdb
+E:\aseedi\SampleProject\RabbitMq\Publish.Sub\BusManagement\BusManagement.Plugins.Contract\obj\Debug\BusManagement.Plugins.Contract.csproj.CoreCompileInputs.cache
+E:\aseedi\SampleProject\RabbitMq\Publish.Sub\BusManagement\BusManagement.Plugins.Contract\obj\Debug\BusManagement.Plugins.Contract.dll
+E:\aseedi\SampleProject\RabbitMq\Publish.Sub\BusManagement\BusManagement.Plugins.Contract\obj\Debug\BusManagement.Plugins.Contract.pdb

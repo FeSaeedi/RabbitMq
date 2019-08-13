@@ -57,7 +57,8 @@ namespace BusManagment.Host.App_Start
 
             if (!string.IsNullOrWhiteSpace(contractname))
             {
-                type= compositioncontainer.GetExportedValues<t>(contractname).ToList<t>();
+                var rerr = compositioncontainer.GetExportedValue<t>(contractname);
+                type = compositioncontainer.GetExportedValues<t>(contractname).ToList<t>();
             }
             else
             {

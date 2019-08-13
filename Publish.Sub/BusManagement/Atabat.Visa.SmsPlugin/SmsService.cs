@@ -16,6 +16,8 @@ namespace Atabat.Visa.SmsPlugin
 
         public async Task<int> Notify(string  x)
         {
+            if (x == "0") return 0;
+
             return 1;
         }
     }

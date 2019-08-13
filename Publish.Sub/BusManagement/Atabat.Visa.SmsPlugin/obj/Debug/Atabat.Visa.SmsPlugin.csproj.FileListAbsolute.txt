@@ -5,3 +5,12 @@ G:\Git\Rabbitmq\RabbitMq\Publish.Sub\BusManagement\Atabat.Visa.SmsPlugin\obj\Deb
 G:\Git\Rabbitmq\RabbitMq\Publish.Sub\BusManagement\Atabat.Visa.SmsPlugin\obj\Debug\Atabat.Visa.SmsPlugin.csproj.CopyComplete
 G:\Git\Rabbitmq\RabbitMq\Publish.Sub\BusManagement\Atabat.Visa.SmsPlugin\obj\Debug\Atabat.Visa.SmsPlugin.dll
 G:\Git\Rabbitmq\RabbitMq\Publish.Sub\BusManagement\Atabat.Visa.SmsPlugin\obj\Debug\Atabat.Visa.SmsPlugin.pdb
+E:\aseedi\SampleProject\RabbitMq\Publish.Sub\BusManagement\BusManagment.Host\Plugins\SmsPlugin\Atabat.Visa.SmsPlugin.dll
+E:\aseedi\SampleProject\RabbitMq\Publish.Sub\BusManagement\BusManagment.Host\Plugins\SmsPlugin\Atabat.Visa.SmsPlugin.pdb
+E:\aseedi\SampleProject\RabbitMq\Publish.Sub\BusManagement\Atabat.Visa.SmsPlugin\obj\Debug\Atabat.Visa.SmsPlugin.csprojAssemblyReference.cache
+E:\aseedi\SampleProject\RabbitMq\Publish.Sub\BusManagement\Atabat.Visa.SmsPlugin\obj\Debug\Atabat.Visa.SmsPlugin.csproj.CoreCompileInputs.cache
+E:\aseedi\SampleProject\RabbitMq\Publish.Sub\BusManagement\Atabat.Visa.SmsPlugin\obj\Debug\Atabat.Visa.SmsPlugin.csproj.CopyComplete
+E:\aseedi\SampleProject\RabbitMq\Publish.Sub\BusManagement\Atabat.Visa.SmsPlugin\obj\Debug\Atabat.Visa.SmsPlugin.dll
+E:\aseedi\SampleProject\RabbitMq\Publish.Sub\BusManagement\Atabat.Visa.SmsPlugin\obj\Debug\Atabat.Visa.SmsPlugin.pdb
+E:\aseedi\SampleProject\RabbitMq\Publish.Sub\BusManagement\BusManagment.Host\Plugins\Atabat.Visa.SmsPlugin\Atabat.Visa.SmsPlugin.dll
+E:\aseedi\SampleProject\RabbitMq\Publish.Sub\BusManagement\BusManagment.Host\Plugins\Atabat.Visa.SmsPlugin\Atabat.Visa.SmsPlugin.pdb

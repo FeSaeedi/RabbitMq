@@ -1,0 +1,6 @@
+E:\aseedi\SampleProject\RabbitMq\Publish.Sub\BusManagement\BusManagment.Host\Plugins\ClassLibrary1\ClassLibrary1.dll
+E:\aseedi\SampleProject\RabbitMq\Publish.Sub\BusManagement\BusManagment.Host\Plugins\ClassLibrary1\ClassLibrary1.pdb
+E:\aseedi\SampleProject\RabbitMq\Publish.Sub\BusManagement\ClassLibrary1\obj\Debug\ClassLibrary1.csprojAssemblyReference.cache
+E:\aseedi\SampleProject\RabbitMq\Publish.Sub\BusManagement\ClassLibrary1\obj\Debug\ClassLibrary1.csproj.CoreCompileInputs.cache
+E:\aseedi\SampleProject\RabbitMq\Publish.Sub\BusManagement\ClassLibrary1\obj\Debug\ClassLibrary1.dll
+E:\aseedi\SampleProject\RabbitMq\Publish.Sub\BusManagement\ClassLibrary1\obj\Debug\ClassLibrary1.pdb

@@ -13,7 +13,7 @@ namespace Worker1
     {
         static void Main(string[] args)
         {
-            ConnectionFactory connectionFactory = new ConnectionFactory() { HostName = "localhost" };
+            ConnectionFactory connectionFactory = new ConnectionFactory() { HostName = "127.0.0.1", UserName = "deldel", Password = "frefre", VirtualHost = "/" };
             using (var connection = connectionFactory.CreateConnection())
             using (var chanel = connection.CreateModel())
             {
@@ -24,12 +24,13 @@ namespace Worker1
                 {
                     var body = ea.Body;
                     var message = Encoding.UTF8.GetString(body);
-                    Console.WriteLine("[x] Recived {0}", message);
+                    Console.WriteLine("[x] Recived {0} :{1}", message, DateTime.Now);
                     int dots = message.Split('.').Length - 1;
                     Thread.Sleep(dots * 1000);
                     Console.WriteLine("[x] Done");
+                    chanel.BasicNack(ea.DeliveryTag, true, true);
                 };
-                chanel.BasicConsume(queue: "task_queu", autoAck: true, consumer: consumer);
+                chanel.BasicConsume(queue: "task_queu", autoAck: false, consumer: consumer);
                 Console.WriteLine("Press enu Key");
                 Console.ReadLine();
             }

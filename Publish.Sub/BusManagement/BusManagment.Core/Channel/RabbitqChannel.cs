@@ -84,14 +84,8 @@ namespace BusManagment.Core
 
         public void RegisterConsumer( string queueName, Func<string, Task<int>> notifyFunc)
         {
-            var rabbitQueueName = _channel.QueueDeclare(queueName, true).QueueName;
-            //if (string.IsNullOrEmpty(exchangeName))
-            //{
-            //    _channel.ExchangeDeclare(exchange: exchangeName, type: "fanout");
-            //    _channel.QueueBind(queue: rabbitQueueName,exchange: exchangeName, routingKey: "");
-            //}
-
-            ////  
+            var rabbitQueueName = _channel.QueueDeclare(queueName, true, exclusive : false, autoDelete:false).QueueName;
+          
             var consumer = new EventingBasicConsumer(_channel);
             consumer.Received += async (model, ea) =>
             {
@@ -101,8 +95,16 @@ namespace BusManagment.Core
                 try
                 {
                     int result = await notifyFunc(message);
-                    _channel.BasicAck(ea.DeliveryTag, false);
-                    Debug.WriteLine("Recive Step2");
+                    if (result == 1)
+                    {
+                        //todo:multiple??
+                        _channel.BasicAck(ea.DeliveryTag, false);
+                        Debug.WriteLine("Recive Step2");
+                    }
+                    else {
+                        _channel.BasicNack(ea.DeliveryTag, true, true);
+                        Debug.WriteLine("Recive Step20" );
+                    }
                 }
                 catch (Exception exp)
                 {

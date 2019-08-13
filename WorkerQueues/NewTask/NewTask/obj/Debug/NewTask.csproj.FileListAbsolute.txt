@@ -9,3 +9,15 @@ C:\Users\fsaeedi.SIC\Source\Repos\NewTask\NewTask\obj\Debug\NewTask.csproj.CoreC
 C:\Users\fsaeedi.SIC\Source\Repos\NewTask\NewTask\obj\Debug\NewTask.csproj.CopyComplete
 C:\Users\fsaeedi.SIC\Source\Repos\NewTask\NewTask\obj\Debug\NewTask.exe
 C:\Users\fsaeedi.SIC\Source\Repos\NewTask\NewTask\obj\Debug\NewTask.pdb
+E:\aseedi\SampleProject\RabbitMq\WorkerQueues\NewTask\NewTask\bin\Debug\NewTask.exe.config
+E:\aseedi\SampleProject\RabbitMq\WorkerQueues\NewTask\NewTask\bin\Debug\NewTask.exe
+E:\aseedi\SampleProject\RabbitMq\WorkerQueues\NewTask\NewTask\bin\Debug\NewTask.pdb
+E:\aseedi\SampleProject\RabbitMq\WorkerQueues\NewTask\NewTask\bin\Debug\Microsoft.Diagnostics.Tracing.EventSource.dll
+E:\aseedi\SampleProject\RabbitMq\WorkerQueues\NewTask\NewTask\bin\Debug\RabbitMQ.Client.dll
+E:\aseedi\SampleProject\RabbitMq\WorkerQueues\NewTask\NewTask\bin\Debug\Microsoft.Diagnostics.Tracing.EventSource.xml
+E:\aseedi\SampleProject\RabbitMq\WorkerQueues\NewTask\NewTask\bin\Debug\RabbitMQ.Client.xml
+E:\aseedi\SampleProject\RabbitMq\WorkerQueues\NewTask\NewTask\obj\Debug\NewTask.csprojAssemblyReference.cache
+E:\aseedi\SampleProject\RabbitMq\WorkerQueues\NewTask\NewTask\obj\Debug\NewTask.csproj.CoreCompileInputs.cache
+E:\aseedi\SampleProject\RabbitMq\WorkerQueues\NewTask\NewTask\obj\Debug\NewTask.csproj.CopyComplete
+E:\aseedi\SampleProject\RabbitMq\WorkerQueues\NewTask\NewTask\obj\Debug\NewTask.exe
+E:\aseedi\SampleProject\RabbitMq\WorkerQueues\NewTask\NewTask\obj\Debug\NewTask.pdb

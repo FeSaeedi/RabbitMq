@@ -38,7 +38,7 @@ namespace ConsoleApp1
                 var body = Encoding.UTF8.GetBytes(message);
                 
 
-                channel.BasicPublish(exchange: "logs",
+                channel.BasicPublish(exchange: "complete_register",
                       routingKey: "",
                       basicProperties: null,
                       body: body);
@@ -50,7 +50,7 @@ namespace ConsoleApp1
                 body = Encoding.UTF8.GetBytes(input);
 
 
-                channel.BasicPublish(exchange: "logs",
+                channel.BasicPublish(exchange: "complete_register",
                       routingKey: "",
                       basicProperties: null,
                       body: body);
@@ -61,7 +61,7 @@ namespace ConsoleApp1
                 body = Encoding.UTF8.GetBytes(input2);
 
 
-                channel.BasicPublish(exchange: "logs",
+                channel.BasicPublish(exchange: "complete_register",
                       routingKey: "",
                       basicProperties: null,
                       body: body);

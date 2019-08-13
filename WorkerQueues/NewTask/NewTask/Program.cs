@@ -11,16 +11,17 @@ namespace NewTask
     {
         static void Main(string[] args)
         {
-            ConnectionFactory connectionFactory = new ConnectionFactory() { HostName = "localhost" };
+            ConnectionFactory connectionFactory = new ConnectionFactory() { HostName = "192.168.12.19",UserName="deldel", Password="frefre", VirtualHost="/" };
             using (var connection = connectionFactory.CreateConnection())
             using (var chanel = connection.CreateModel())
             {
-                chanel.QueueDeclare(queue: "hello", durable: false, exclusive: false, autoDelete: false, arguments: null);
                 string message = GetMesage(args);
                 var body = Encoding.UTF8.GetBytes(message);
                 var properties = chanel.CreateBasicProperties();
                 properties.Persistent = true;
                 chanel.BasicPublish(exchange: "", routingKey: "task_queu", basicProperties: properties, body: body);
+                Console.Write("Send Message");
+                Console.ReadLine();
             }
         }
         private static string GetMesage(string[] args)

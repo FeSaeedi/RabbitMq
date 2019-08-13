@@ -10,3 +10,15 @@ C:\Users\Fereshteh\source\repos\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.cs
 C:\Users\Fereshteh\source\repos\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.exe
 C:\Users\Fereshteh\source\repos\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.pdb
 C:\Users\Fereshteh\source\repos\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.csprojAssemblyReference.cache
+E:\aseedi\SampleProject\RabbitMq\Publish.Sub\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+E:\aseedi\SampleProject\RabbitMq\Publish.Sub\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+E:\aseedi\SampleProject\RabbitMq\Publish.Sub\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+E:\aseedi\SampleProject\RabbitMq\Publish.Sub\ConsoleApp1\ConsoleApp1\bin\Debug\Microsoft.Diagnostics.Tracing.EventSource.dll
+E:\aseedi\SampleProject\RabbitMq\Publish.Sub\ConsoleApp1\ConsoleApp1\bin\Debug\RabbitMQ.Client.dll
+E:\aseedi\SampleProject\RabbitMq\Publish.Sub\ConsoleApp1\ConsoleApp1\bin\Debug\Microsoft.Diagnostics.Tracing.EventSource.xml
+E:\aseedi\SampleProject\RabbitMq\Publish.Sub\ConsoleApp1\ConsoleApp1\bin\Debug\RabbitMQ.Client.xml
+E:\aseedi\SampleProject\RabbitMq\Publish.Sub\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.csprojAssemblyReference.cache
+E:\aseedi\SampleProject\RabbitMq\Publish.Sub\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.CoreCompileInputs.cache
+E:\aseedi\SampleProject\RabbitMq\Publish.Sub\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.CopyComplete
+E:\aseedi\SampleProject\RabbitMq\Publish.Sub\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+E:\aseedi\SampleProject\RabbitMq\Publish.Sub\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.pdb
